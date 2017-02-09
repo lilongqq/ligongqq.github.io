@@ -1,0 +1,125 @@
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{
+	margin: 0px;padding: 0px;list-style: none;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 宋体;font-size: 12px;color: #333;background: #dfdfdf;style=`overflow:-Scroll;overflow-x:hidden;
+}
+
+/*头部*/
+.tou{
+	width: 1600px;height: 84px;margin: 0 auto;background: #202020;
+}
+.tou .touleft{
+	width: 166px;height: 50px;margin-top: 12px;float: left;
+	/*background: url(../massage/2.png) 0 -59px;*/font-size: 30px;margin-top:25px;
+}
+.tou .shnag{
+	width: 976px;height: 50px; float: right;margin-top: 14px;
+}
+.tou .shouye{
+	width: 96px;height:20px; line-height: 20px;float: left;
+	font-size: 16px;color: #727171;border-left: 0px solid #cbcdcc;
+	text-align: center;margin-top: 18px;
+}
+.tou a{
+	color: #727171;
+}
+.tou a:hover{
+	color: #b71a21;
+}
+.content9{
+    width: 1600px;height: 507px;margin: 0 auto;
+}
+
+.content9 .list{
+	width: 285px;height: 507px;float: left;margin-right: 20px;
+}
+.content9 .img{
+	width: 285px;height: 438px;display: block;
+}
+.content9 .jiage{
+	width: 283px;height: 68px;border: 1px solid #e8e7ec;border-top: 0px;line-height: 68px;
+}
+.content9 .name{
+	width: 128px;height: 68px;float: left;padding-left: 12px;
+}
+.content9 .qian{
+	width: 112px;height: 68px;float: right;padding-left: 26px;color: #a10000;
+}
+
+/*banner*/
+.banner{
+	width: 1600px;height: 435px;margin: 0 auto;
+	margin-bottom: 40px;position: relative;margi-left:1px;
+}
+.banner .fang{
+	width: 126px;height: 16px;position: absolute;bottom: 20px;margin-left: -67px;left: 50%;
+}
+.banner img{
+	display: block;
+}
+.banner .quan{
+	width: 12px;height: 12px;background: #000;float: left;
+	margin-right: 7px;margin-top: 2px;border-radius: 50%;
+}
+.banner #quan1{
+	margin-right: 0px;background: #a10000;
+}
+.banner .jian{
+	width:24px;height: 58px;background: url(../massage/7.png) ;position: absolute;left: -511px;top: -306px;cursor: pointer;
+}
+.banner .jian1{
+	width:24px;height: 58px;background:  url(../massage/7.png) 24px 0;position: absolute;left: 628px;top: -306px;cursor: pointer;
+}
+.banner .jian:hover{
+	background: url(../massage/7.png) 0 65px;
+}
+.banner .jian1:hover{
+	background: url(../massage/7.png) 24px 65px;
+}
+
+/*中间*/
+.one{width: 1600px;height: 387px;margin: 0 auto;}
+.two{
+	width: 662px;height: 309px;;margin-left: 347px;margin-top: 78px;
+}
+.two1{width: 54px;height: 26px;background: #d1733b;font-size: 18px;margin:0 auto;}
+.two2{font-size: 18px;color: #d1733b }
+.kk{width: 136px;height: 26px;border: 1px solid #000000;}
+.ip1{float: right}
+
+/*.diero{*/
+	/*width: 1600px;height: 1108px;background: #efeae6;margin: 0 auto;margin-top: 596px;*/
+}
+.e1{margin-left: 388px;font-size: 18px;}
+.e2{width: 838px;height: 2px;background: #ffffff;margin: 0 auto;}
+.r1{
+	width:1200px ;height: 267px;margin: 0 auto;
+}
+.rr1{width: 330px;height: 267px;margin-right:41px;float: left;}
+.rr2{width: 330px;height: 267px;margin-right:41px;float: left;}
+.rr3{width: 330px;height: 267px;float: left;}
+.jj{width: 1600px;height: 68px;margin: 0 auto;}
+.jj1{width: 420px;height: 68px;margin-left: 715px;}
+.jj2{width:50px;height: 15px;background: #6a2c1d;}
+
+/**/
+.y1{width:1600px ;height:685px ;margin: 0 auto;}
+.yy1{width: 1054px;height: 685px;float: right;}
+.uu1{width: 1600px;height:24px;margin: 0 auto;margin-top: 20px;}
+.u1{font-size: 18px;margin-left: 450px;}
+.i1{width: 1200px;height: 4px;background: #ffffff;margin: 0 auto;margin-top: 50px;}
+.o1{width: 1600px;margin: 0 auto;}
+.oo1{width: 332px;height: 43px;border: 1px solid #ffffff; margin-left: 400px;}
+.oo2{font-size:18px;}
+.p1{width: 113px;margin-left:800px;float: left; }
+.a1{width: 160000px;margin: 0 auto;float: left;}
+.azuo{800px;float: left}
+.ayou{800px;float: left;font-size:18px;margin-left: 80px;}
+.ayou a{display: block;margin-top:10px;}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{
+            transform-style: preserve-3d;perspective:1000px;
+        }
+        .dem{
+            width:600px;
+            height:300px;position: relative;border: 1px solid red;
+            transition: all 3s; transform-style: preserve-3d;
+            transform-origin: center center -520px;margin: 100px auto;
+        }
+        .demo{
+            width:600px;
+            height:300px;position: absolute;left: 0px;top:0px;transform-origin: center center -520px;
+        }
+        .demo:nth-child(1){
+            background:#FF6CB7;
+        }
+        .demo:nth-child(2){
+           transform:rotateY(60deg);background:#FF6033;}
+
+        .demo:nth-child(3){
+            transform:rotateY(120deg);background:#B454FF}
+
+
+        .demo:nth-child(4){
+            transform:rotateY(180deg);background:#8337FF;}
+        .demo:nth-child(5){
+           transform:rotateY(-120deg);background:#FF9724;}
+        .demo:nth-child(6){
+            transform:rotateY(-60deg);background:#61FFDF;}
+        .dem:hover{transform:rotateY(360deg);}
+
+
+
+    </style>
+</head>
+<body>
+<div class ="box">
+    <div class ="dem">
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+        <div class="demo"></div>
+    </div>
+</div>
+</body>
+</html>
